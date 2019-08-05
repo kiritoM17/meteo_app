@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c1d7f57-c49e-4b40-979e-679a0e8fec2f" name="Default Changelist" comment="" />
+    <list default="true" id="7335a628-d513-450c-b415-ab129a8f0007" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1OYh1iOQfq7TSu2x4JjPu7R2pQW" />
+  <component name="ProjectId" id="1OYrLzdM94jmnNsxKwXVuMyfpI6" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../meteo_app" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,12 +36,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c1d7f57-c49e-4b40-979e-679a0e8fec2f" name="Default Changelist" comment="" />
-      <created>1564160223742</created>
+      <changelist id="7335a628-d513-450c-b415-ab129a8f0007" name="Default Changelist" comment="" />
+      <created>1564165319840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564160223742</updated>
-      <workItem from="1564160229660" duration="3501000" />
+      <updated>1564165319840</updated>
+      <workItem from="1564165333317" duration="10601000" />
+      <workItem from="1564214888319" duration="2049000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Weather App Tutorila</title>
+    <title>Weather App Tutorila Inscription</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -24,47 +24,42 @@
 <body>
 
 <div class="contact1">
-    <h2 style="color: white !important;" class="align-center"> APP DEMO 10000 CODEURS <br> by @JUNIOR MVE</h2>
     <div class="container-contact1">
         <div class="contact1-pic js-tilt" data-tilt>
-           <div class="col-sm-12 col-xs-12 col-md-12">
-               <div class="card">
-                   <div class="card-body">
-                       <p><span style="color: #1e7e34">User Pseudo</span>: <%= users.pseudo_users %></p>
-                       <p><span style="color: #1e7e34">User Email</span>: <%= users.email_users %></p>
-                       <a href="/deconnexion">
-                           <button class="btn btn-lg btn-primary"> Deconnexion</button>
-                       </a>
-                   </div>
-               </div>
-           </div>
+            <img src="images/img-01.png" alt="IMG">
         </div>
 
-        <form class="contact1-form validate-form" action="/" method="post">
+        <form class="contact1-form validate-form" action="/inscription" method="post">
 				<span class="contact1-form-title" >
-                    <span style="border-bottom: #00c6ff 2px solid; color: #00c6ff ">Comsulter Meteo D'une Ville</span>
+                    <span style="border-bottom: #00c6ff 2px solid; color: #00c6ff ">Inscription sur weather App</span>
 				</span>
             <div class="wrap-input1 validate-input" data-validate = "Name is required">
-                <input class="input1" type="text" name="city" placeholder="Nom de La Ville:">
+                <input class="input1" type="text" name="pseudo" placeholder="Users Name:">
+                <span class="shadow-input1"></span>
+            </div>
+
+            <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input1" type="text" name="email" placeholder="Users Email:">
+                <span class="shadow-input1"></span>
+            </div>
+
+            <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                <input class="input1" type="password" name="password" placeholder="Password:">
                 <span class="shadow-input1"></span>
             </div>
             <div class="container-contact1-form-btn">
                 <button class="contact1-form-btn">
 						<span>
-							Afficher Meteo
+							s'inscrire
 							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 						</span>
-                </button>
+                </button><p class="btn">deja un compte ? cliquer <a href="/authentification" class="btn btn-xs btn-primary">ici</a> pour vous conneecter</p>
 
             </div>
             <div class="container-contact1-form-btn">
-                <% if(weather !== null){ %>
-                    <p><%= weather %></p>
-                <% } %>
-
-                <% if(error !== null){ %>
-                    <p><%= error %></p>
-                <% } %>
+                    <% if(error !== null){ %>
+                        <p style="color: red"><%= error %></p>
+                    <% } %>
             </div>
         </form>
     </div>
